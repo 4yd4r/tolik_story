@@ -1,0 +1,4 @@
+function is_zombie()
+	local obj = level.object("actor")
+	obj:set_character_community ("zombied")
+end

@@ -1,0 +1,46 @@
+function sidorovich()
+local obj = alife():create("escape_trader_corpse", vector():set(-207.6495, -22.0933, -126.9797), 186578, 76)
+obj:on_death()
+end
+
+function heli_crew()
+local obj = alife():create("esc_heli_crew1", vector():set(-179.29, -16.81, -417.77), 186578, 76)
+obj:on_death()
+local obj = alife():create("esc_heli_crew1", vector():set(-171.29, -16.81, -411.77), 186578, 76)
+obj:on_death()
+local obj = alife():create("esc_heli_crew3", vector():set(-183.29, -14.81, -401.77), 186578, 76)
+obj:on_death()
+local obj = alife():create("esc_heli_crew2", vector():set(-175.29, -15.81, -415.77), 186578, 76)
+obj:on_death()
+local obj = alife():create("esc_heli_crew3", vector():set(-172.29, -17.81, -414.77), 186578, 76)
+obj:on_death()
+local obj = alife():create("heli_object1", vector():set(-176.29, -24.00, -413.77), 186578, 76)
+local obj = alife():create("esc_heli_documents", vector():set(-173.29, -23.00, -411.77), 186578, 76)
+end
+
+function spawn_l01_escape()
+local obj = alife():create("zombie_weak", vector():set(-47.46, -10.037, -66.142), 186578, 76)
+local obj = alife():create("zombie_weak", vector():set(-74.34, -28.85, -252.25), 186578, 76)
+local obj = alife():create("zombie_immortal", vector():set(-128.10, -7.92, -149.32), 186578, 76)
+local obj = alife():create("zombie_weak", vector():set(-74.34, -18.85, -252.25), 186578, 76)
+local obj = alife():create("zombie_weak", vector():set(-74.34, -18.85, -252.25), 186578, 76)
+local obj = alife():create("zombie_weak", vector():set(-74.34, -18.85, -252.25), 186578, 76)
+local obj = alife():create("zombie_strong", vector():set(-74.34, -18.85, -252.25), 186578, 76)
+local obj = alife():create("zombie_strong", vector():set(-74.34, -18.85, -252.25), 186578, 76)
+local obj = alife():create("zombie_normal", vector():set(-74.34, -18.85, -252.25), 186578, 76)
+local obj = alife():create("zombie_immortal", vector():set(-74.34, -18.85, -252.25), 186578, 76)
+local obj = alife():create("bolt", vector():set(-181.0, -25.77, -344.56), 186578, 76)
+local obj = alife():create("niva_total", vector():set(-181.0, -29.17, -344.56), 186578, 76)
+local obj = alife():create("bolt", vector():set(-163.22, -29.01, -344.75), 186578, 76)
+local obj = alife():create("esc_btr", vector():set(-163.22, -29.42, -344.75), 186578, 76)
+local obj = alife():create("esc_bodyguard", vector():set(-251.0938, -19.59271637, -126.29), 186578, 76)
+end
+
+function escape_controller()
+local obj = alife():create("escape_controller", vector():set(-137.88, -24.50, -354.26), 186578, 76)
+end
+
+function dead_blockpost_commander()
+local obj = alife():create("dead_blockpost_commander", vector():set(-140.05, -22.61, -354.63), 186578, 76)
+obj:on_death()
+end

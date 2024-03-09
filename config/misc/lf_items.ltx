@@ -1,0 +1,38 @@
+[heli_object]
+GroupControlSection	= spawn_group
+$spawn 				= "physics\heli_object"
+$prefetch 			= 8
+class				= O_PHYS_S
+remove_time			= 600000000; after this time  unbreaked removable bone will be removed
+script_binding      = bind_physic_object.init
+ph_mass		= 100000
+visual				 = lore_friendly_visuals\others\crashed_heli.ogf
+
+[heli_object1]
+GroupControlSection	= spawn_group
+$spawn 				= "physics\heli_object1"
+$prefetch 			= 8
+class				= O_PHYS_S
+remove_time			= 600000000; after this time  unbreaked removable bone will be removed
+script_binding      = bind_physic_object.init
+ph_mass		= 100000
+visual				 = lore_friendly_visuals\others\crashed_heli1.ogf
+
+[heli_object2]
+GroupControlSection	= spawn_group
+$spawn 				= "physics\heli_object2"
+$prefetch 			= 8
+class				= O_PHYS_S
+remove_time			= 600000000; after this time  unbreaked removable bone will be removed
+script_binding      = bind_physic_object.init
+ph_mass		= 100000
+visual				 = lore_friendly_visuals\others\mi_24_cop.ogf
+
+[backpack]
+GroupControlSection	= spawn_group
+discovery_dependency = 
+$spawn 				= "devices\backpack"
+class				= O_INVBOX
+cform				= skeleton
+visual				= equipments\item_rukzak.ogf
+script_binding      = bind_physic_object.init
